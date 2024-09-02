@@ -7,10 +7,10 @@ import certifi
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-TOKEN = '7500366284:AAG8DF9FOZUyi1DCagFg4b0ypIDaJaToBTM'
+TOKEN = '7182564295:AAGoK2r4BZrlOvJR1tHkcNXGx1kFgrZGLL0'
 MONGO_URI = 'mongodb+srv://admin:kpR4ObsewTySq48I@test.zeqrmgb.mongodb.net/test_db?retryWrites=true&w=majority'
-CHANNEL_ID = -1002150195409
-ADMIN_IDS = [1051815609, 1234567890, 2345678901, 3456789012, 4567890123]
+CHANNEL_ID = -1002206474460
+ADMIN_IDS = [440905669, 1234567890, 2345678901, 3456789012, 4567890123]
 
 
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
